@@ -1,3 +1,5 @@
+# Clean data, convert types, rules
+
 columns_to_drop = ['Description', 'Description 2', 'Lot', 'Bay', 'Net Wgt', 'Tag ID', 
                    'Sub Lot', 'Group ID', 'Count Qty Committed', 'Count Qty Uncommitted']
 
