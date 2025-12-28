@@ -1,4 +1,6 @@
 # Write to Azure SQL
+from sqlalchemy import create_engine # type: ignore
+import pyodbc, time
 
 def load_inventory(dataframe df):
     # SQL connection
