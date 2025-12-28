@@ -136,6 +136,12 @@ celerybeat.pid
 
 # Environments
 .env
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.db
+
 .envrc
 .venv
 env/
