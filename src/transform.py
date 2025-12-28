@@ -1,4 +1,8 @@
 # Clean data, convert types, rules
+import pandas as pd # type: ignore
+import os
+import glob
+import datetime
 
 def clean_inventory (dataframe df):
   columns_to_drop = ['Description', 'Description 2', 'Lot', 'Bay', 'Net Wgt', 'Tag ID', 
